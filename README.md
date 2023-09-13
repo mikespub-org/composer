@@ -1,6 +1,10 @@
 ## Mike's Pub Composer Packages
 
-### Setup
+### Package Repository
+
+- https://github-org.mikespub.net/composer/
+
+### Initial Setup
 
 - https://getcomposer.org/doc/articles/handling-private-packages.md
 - https://github.com/composer/satis
