@@ -1,0 +1,37 @@
+{
+    "name": "mikespub/composer",
+    "homepage": "https://github-org.mikespub.net/composer/",
+    "description": "Mike's Pub Composer Packages",
+    "output-dir": "docs",
+    "include-filename": "all.json",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikespub-org/php-epub-meta"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikespub-org/epub-loader"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikespub-org/seblucas-cops"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikespub-org/kiwilan-php-opds"
+        }
+    ],
+    "require": {
+        "kiwilan/php-opds": "dev-relations",
+        "mikespub/epub-loader": "~2.0 || dev-*",
+        "mikespub/php-epub-meta": "~2.0 || dev-*",
+        "mikespub/seblucas-cops": "~2.0 || dev-*"
+    },
+    "require-dependencies": false, 
+    "require-dev-dependencies": false, 
+    "archive": {
+        "directory": "dist",
+        "skip-dev": false
+    }
+}

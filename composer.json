@@ -1,0 +1,14 @@
+{
+    "name": "mikespub/composer",
+    "description": "Composer Packages",
+    "type": "project",
+    "require": {
+        "composer/satis": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "composer/satis": true
+        }
+    }
+}

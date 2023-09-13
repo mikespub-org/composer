@@ -1,1 +1,12 @@
-# Composer Packages
+## Mike's Pub Composer Packages
+
+### Setup
+
+- https://getcomposer.org/doc/articles/handling-private-packages.md
+- https://github.com/composer/satis
+
+### Examples
+
+- https://github.com/eventum/composer
+- https://alexvanderbist.com/2021/setting-up-and-securing-a-private-composer-repository/
+
