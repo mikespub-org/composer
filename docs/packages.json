@@ -1,0 +1,15 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$cf24904a6d7e8694ded5cd96aa12a8b258f67654.json": {
+            "sha1": "cf24904a6d7e8694ded5cd96aa12a8b258f67654"
+        }
+    },
+    "metadata-url": "/composer/p2/%package%.json",
+    "available-packages": [
+        "kiwilan/php-opds",
+        "mikespub/epub-loader",
+        "mikespub/php-epub-meta",
+        "mikespub/seblucas-cops"
+    ]
+}
