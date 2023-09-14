@@ -8,13 +8,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/kiwilan-php-opds.git",
-                    "reference": "bee81ec0866bcac2f721605ee0ea9fddcc0465f8"
+                    "reference": "3fc113d5cf5dc3ba494e1aefa3227aacf0fc33a1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-bee81ec0866bcac2f721605ee0ea9fddcc0465f8-zip-15c147.zip",
-                    "reference": "bee81ec0866bcac2f721605ee0ea9fddcc0465f8",
-                    "shasum": "fddac7f6648fa9314e2eacf3e55716598b68cd4a"
+                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-3fc113d5cf5dc3ba494e1aefa3227aacf0fc33a1-zip-914f0c.zip",
+                    "reference": "3fc113d5cf5dc3ba494e1aefa3227aacf0fc33a1",
+                    "shasum": "844fea9a1abbc26a5736239f3879b7b9ded46b94"
                 },
                 "require": {
                     "php": "^8.1",
@@ -27,9 +27,8 @@
                     "phpstan/phpstan": "^1.10",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2023-09-13T16:18:57+00:00",
+                "time": "2023-09-14T14:37:12+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Kiwilan\\Opds\\": "src"
@@ -84,7 +83,7 @@
                     "php"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/kiwilan-php-opds/tree/relations"
+                    "source": "https://github.com/mikespub-org/kiwilan-php-opds/tree/main"
                 },
                 "funding": [
                     {
@@ -118,7 +117,6 @@
                 },
                 "time": "2023-09-09T20:27:34+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -170,7 +168,6 @@
                 },
                 "time": "2023-09-09T22:23:48+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -223,7 +220,6 @@
                 },
                 "time": "2023-09-10T08:24:53+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -276,7 +272,6 @@
                 },
                 "time": "2023-09-10T15:24:35+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -329,7 +324,6 @@
                 },
                 "time": "2023-09-11T17:59:47+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/",
@@ -383,7 +377,6 @@
                 },
                 "time": "2023-09-11T20:05:10+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/",
@@ -440,7 +433,6 @@
                 },
                 "time": "2023-09-09T19:59:35+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -511,7 +503,6 @@
                 },
                 "time": "2023-09-10T09:59:39+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -582,7 +573,6 @@
                 },
                 "time": "2023-09-10T15:06:11+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -675,7 +665,6 @@
                 },
                 "time": "2023-09-10T14:32:30+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "lib/",
@@ -758,7 +747,6 @@
                 },
                 "time": "2023-09-10T15:59:13+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "lib/",
@@ -841,7 +829,6 @@
                 },
                 "time": "2023-09-10T16:21:39+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "lib/",
@@ -925,7 +912,6 @@
                 },
                 "time": "2023-09-13T12:10:59+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "lib/",

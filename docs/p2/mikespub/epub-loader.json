@@ -24,7 +24,6 @@
                 },
                 "time": "2023-09-09T20:27:34+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -76,7 +75,6 @@
                 },
                 "time": "2023-09-09T22:23:48+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -129,7 +127,6 @@
                 },
                 "time": "2023-09-10T08:24:53+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -182,7 +179,6 @@
                 },
                 "time": "2023-09-10T15:24:35+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -235,7 +231,6 @@
                 },
                 "time": "2023-09-11T17:59:47+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/",
@@ -289,7 +284,6 @@
                 },
                 "time": "2023-09-11T20:05:10+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/",

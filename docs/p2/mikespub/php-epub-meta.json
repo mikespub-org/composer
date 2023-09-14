@@ -28,7 +28,6 @@
                 },
                 "time": "2023-09-09T19:59:35+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -99,7 +98,6 @@
                 },
                 "time": "2023-09-10T09:59:39+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -170,7 +168,6 @@
                 },
                 "time": "2023-09-10T15:06:11+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
