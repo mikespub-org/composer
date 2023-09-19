@@ -14,7 +14,7 @@
                     "type": "zip",
                     "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-3fc113d5cf5dc3ba494e1aefa3227aacf0fc33a1-zip-914f0c.zip",
                     "reference": "3fc113d5cf5dc3ba494e1aefa3227aacf0fc33a1",
-                    "shasum": "844fea9a1abbc26a5736239f3879b7b9ded46b94"
+                    "shasum": "c86d838eace63f9c6d5f6e52525a3ad33741cbef"
                 },
                 "require": {
                     "php": "^8.1",

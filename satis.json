@@ -24,9 +24,9 @@
     ],
     "require": {
         "kiwilan/php-opds": "dev-relations",
-        "mikespub/epub-loader": "~2.0 || dev-*",
-        "mikespub/php-epub-meta": "~2.0 || dev-*",
-        "mikespub/seblucas-cops": "~2.0 || dev-*"
+        "mikespub/epub-loader": "^2.1.2",
+        "mikespub/php-epub-meta": "^2.1.2",
+        "mikespub/seblucas-cops": "^2.1.2"
     },
     "require-dependencies": false, 
     "require-dev-dependencies": false, 
