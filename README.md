@@ -14,3 +14,7 @@
 - https://github.com/eventum/composer
 - https://alexvanderbist.com/2021/setting-up-and-securing-a-private-composer-repository/
 
+### Using Git LFS
+
+- https://blog.logrocket.com/efficiently-manage-large-files-git-with-git-lfs/
+
