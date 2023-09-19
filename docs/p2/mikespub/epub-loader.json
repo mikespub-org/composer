@@ -310,6 +310,60 @@
                     "source": "https://github.com/mikespub-org/epub-loader/tree/2.1.1",
                     "issues": "https://github.com/mikespub-org/epub-loader/issues"
                 }
+            },
+            {
+                "name": "mikespub/epub-loader",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub-org/epub-loader.git",
+                    "reference": "a8dbaaf1020a37117e658a756a22c723dcb40d29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epub-loader/mikespub-epub-loader-a8dbaaf1020a37117e658a756a22c723dcb40d29-zip-cc1ab9.zip",
+                    "reference": "a8dbaaf1020a37117e658a756a22c723dcb40d29",
+                    "shasum": "cc84013a689add0b6d88abbd15b68d223c72a252"
+                },
+                "require": {
+                    "freearhey/wikidata": "^3.6",
+                    "mikespub/php-epub-meta": "^2.0",
+                    "php": ">=8.1",
+                    "twig/twig": "^3.7"
+                },
+                "suggest": {
+                    "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
+                },
+                "time": "2023-09-16T11:15:33+00:00",
+                "type": "project",
+                "installation-source": "dist",
+                "autoload": {
+                    "classmap": [
+                        "src/",
+                        "app/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "marsender",
+                        "homepage": "https://github.com/marsender",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "mikespub",
+                        "homepage": "https://github.com/mikespub-org/epub-loader",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "epub-loader is a utility resource for ebooks",
+                "support": {
+                    "source": "https://github.com/mikespub-org/epub-loader/tree/2.1.2",
+                    "issues": "https://github.com/mikespub-org/epub-loader/issues"
+                }
             }
         ]
     }
