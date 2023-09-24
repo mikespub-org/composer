@@ -2,12 +2,11 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "4a80209276acbac6660f04852695c4d566a9dda8"
+            "sha1": "f98fea23745a1e6a06110a706bb323d78a01dfc1"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
-        "kiwilan/php-opds",
         "mikespub/epub-loader",
         "mikespub/php-epub-meta",
         "mikespub/seblucas-cops"
