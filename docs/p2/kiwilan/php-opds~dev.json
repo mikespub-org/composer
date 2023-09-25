@@ -3,18 +3,18 @@
         "kiwilan/php-opds": [
             {
                 "name": "kiwilan/php-opds",
-                "version": "dev-relations",
-                "version_normalized": "dev-relations",
+                "version": "dev-paging",
+                "version_normalized": "dev-paging",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/kiwilan-php-opds.git",
-                    "reference": "3fc113d5cf5dc3ba494e1aefa3227aacf0fc33a1"
+                    "reference": "3a1af6dc54ae103b74df206a029fb03567d70077"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-3fc113d5cf5dc3ba494e1aefa3227aacf0fc33a1-zip-914f0c.zip",
-                    "reference": "3fc113d5cf5dc3ba494e1aefa3227aacf0fc33a1",
-                    "shasum": "c86d838eace63f9c6d5f6e52525a3ad33741cbef"
+                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-3a1af6dc54ae103b74df206a029fb03567d70077-zip-c27140.zip",
+                    "reference": "3a1af6dc54ae103b74df206a029fb03567d70077",
+                    "shasum": "656a67670462a635d5df23c5d6bf9163839fd598"
                 },
                 "require": {
                     "php": "^8.1",
@@ -23,12 +23,15 @@
                 "require-dev": {
                     "kiwilan/php-xml-reader": "^1.0",
                     "laravel/pint": "^1.2",
+                    "opis/json-schema": "^2.3",
                     "pestphp/pest": "^1.20",
                     "phpstan/phpstan": "^1.10",
-                    "spatie/ray": "^1.28"
+                    "spatie/ray": "^1.28",
+                    "symfony/console": "^6.3"
                 },
-                "time": "2023-09-14T14:37:12+00:00",
+                "time": "2023-09-23T12:21:12+00:00",
                 "type": "library",
+                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Kiwilan\\Opds\\": "src"

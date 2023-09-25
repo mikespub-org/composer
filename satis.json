@@ -23,10 +23,10 @@
         }
     ],
     "require": {
-        "kiwilan/php-opds": "^1.0.30",
-        "mikespub/epub-loader": "^2.1.2",
-        "mikespub/php-epub-meta": "^2.1.2",
-        "mikespub/seblucas-cops": "^2.1.4"
+        "kiwilan/php-opds": "dev-paging",
+        "mikespub/epub-loader": "^2.2.0",
+        "mikespub/php-epub-meta": "^2.2.0",
+        "mikespub/seblucas-cops": "^2.2.0"
     },
     "require-dependencies": false, 
     "require-dev-dependencies": false, 

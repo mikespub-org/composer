@@ -3,30 +3,37 @@
         "mikespub/epub-loader": [
             {
                 "name": "mikespub/epub-loader",
-                "version": "2.1.2",
-                "version_normalized": "2.1.2.0",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/epub-loader.git",
-                    "reference": "a8dbaaf1020a37117e658a756a22c723dcb40d29"
+                    "reference": "1e6095f2f6775dc8f0ebb00877abbffa80a00e66"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epub-loader/mikespub-epub-loader-a8dbaaf1020a37117e658a756a22c723dcb40d29-zip-cc1ab9.zip",
-                    "reference": "a8dbaaf1020a37117e658a756a22c723dcb40d29",
-                    "shasum": "280b2190c946daff74559e5bfb95ef27b4a7b0a7"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epub-loader/mikespub-epub-loader-1e6095f2f6775dc8f0ebb00877abbffa80a00e66-zip-7bf817.zip",
+                    "reference": "1e6095f2f6775dc8f0ebb00877abbffa80a00e66",
+                    "shasum": "61ad42371312ce34b4a0628ad0faf3c21d373b0d"
                 },
                 "require": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "ext-zip": "*",
+                    "ext-zlib": "*",
                     "freearhey/wikidata": "^3.6",
-                    "mikespub/php-epub-meta": "^2.0",
+                    "mikespub/php-epub-meta": "^2.2",
                     "php": ">=8.1",
                     "twig/twig": "^3.7"
                 },
                 "suggest": {
                     "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
                 },
-                "time": "2023-09-16T11:15:33+00:00",
+                "time": "2023-09-25T15:54:05+00:00",
                 "type": "project",
+                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/",
@@ -50,7 +57,7 @@
                 ],
                 "description": "epub-loader is a utility resource for ebooks",
                 "support": {
-                    "source": "https://github.com/mikespub-org/epub-loader/tree/2.1.2",
+                    "source": "https://github.com/mikespub-org/epub-loader/tree/2.2.0",
                     "issues": "https://github.com/mikespub-org/epub-loader/issues"
                 }
             }

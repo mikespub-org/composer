@@ -3,23 +3,25 @@
         "mikespub/php-epub-meta": [
             {
                 "name": "mikespub/php-epub-meta",
-                "version": "2.1.2",
-                "version_normalized": "2.1.2.0",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/php-epub-meta.git",
-                    "reference": "039477e14059a387c9ba1fdb6f9021a2d67bfb3b"
+                    "reference": "537c2d3f4dd3cdd365934c2abd79ed043df109df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/php-epub-meta/mikespub-php-epub-meta-039477e14059a387c9ba1fdb6f9021a2d67bfb3b-zip-7d9495.zip",
-                    "reference": "039477e14059a387c9ba1fdb6f9021a2d67bfb3b",
-                    "shasum": "402501968acb1376c906c0db1d7694f854629ef2"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/php-epub-meta/mikespub-php-epub-meta-537c2d3f4dd3cdd365934c2abd79ed043df109df-zip-453990.zip",
+                    "reference": "537c2d3f4dd3cdd365934c2abd79ed043df109df",
+                    "shasum": "62a05de5807a15f89c65be9238d3c18a7530104a"
                 },
                 "require": {
                     "ext-dom": "*",
+                    "ext-mbstring": "*",
                     "ext-xml": "*",
                     "ext-zip": "*",
+                    "ext-zlib": "*",
                     "maennchen/zipstream-php": "~3.1",
                     "php": ">=8.1"
                 },
@@ -30,8 +32,9 @@
                     "mikespub/epub-loader": "epub-loader is a utility resource for ebooks",
                     "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
                 },
-                "time": "2023-09-16T20:40:35+00:00",
+                "time": "2023-09-25T15:32:43+00:00",
                 "type": "library",
+                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -67,7 +70,7 @@
                     "metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/php-epub-meta/tree/2.1.2",
+                    "source": "https://github.com/mikespub-org/php-epub-meta/tree/2.2.0",
                     "issues": "https://github.com/mikespub-org/php-epub-meta/issues"
                 }
             }
