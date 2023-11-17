@@ -8,13 +8,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/kiwilan-php-opds.git",
-                    "reference": "35b82aef1a287ffbc253a4e3fa91466ef4896efe"
+                    "reference": "629650185141856255af0f9dbe02bd2fd346617c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-35b82aef1a287ffbc253a4e3fa91466ef4896efe-zip-c3f0fc.zip",
-                    "reference": "35b82aef1a287ffbc253a4e3fa91466ef4896efe",
-                    "shasum": "349e7f493db6d8949f1b206e33b93cb9a882388e"
+                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-629650185141856255af0f9dbe02bd2fd346617c-zip-bc1447.zip",
+                    "reference": "629650185141856255af0f9dbe02bd2fd346617c",
+                    "shasum": "ad464e5aa6f33dbbcfd7d3f50c1c3c117a4eea65"
                 },
                 "require": {
                     "php": "^8.1",
@@ -29,7 +29,7 @@
                     "spatie/ray": "^1.28",
                     "symfony/console": "^6.3"
                 },
-                "time": "2023-11-16T15:19:17+00:00",
+                "time": "2023-11-17T19:57:23+00:00",
                 "type": "library",
                 "installation-source": "dist",
                 "autoload": {
@@ -86,7 +86,7 @@
                     "php"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/kiwilan-php-opds/tree/develop"
+                    "source": "https://github.com/mikespub-org/kiwilan-php-opds/tree/paging"
                 },
                 "funding": [
                     {
@@ -288,7 +288,6 @@
                 },
                 "time": "2023-11-16T11:30:59+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "lib/",
