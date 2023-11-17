@@ -8,13 +8,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/kiwilan-php-opds.git",
-                    "reference": "629650185141856255af0f9dbe02bd2fd346617c"
+                    "reference": "8c97e0c4692f7519871f3be8d3d9ccee2c626a0f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-629650185141856255af0f9dbe02bd2fd346617c-zip-bc1447.zip",
-                    "reference": "629650185141856255af0f9dbe02bd2fd346617c",
-                    "shasum": "ad464e5aa6f33dbbcfd7d3f50c1c3c117a4eea65"
+                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-8c97e0c4692f7519871f3be8d3d9ccee2c626a0f-zip-a3a652.zip",
+                    "reference": "8c97e0c4692f7519871f3be8d3d9ccee2c626a0f",
+                    "shasum": "a0acff616ca72384d885a93b004fee5c84dfe20c"
                 },
                 "require": {
                     "php": "^8.1",
@@ -29,7 +29,7 @@
                     "spatie/ray": "^1.28",
                     "symfony/console": "^6.3"
                 },
-                "time": "2023-11-17T19:57:23+00:00",
+                "time": "2023-11-17T20:49:22+00:00",
                 "type": "library",
                 "installation-source": "dist",
                 "autoload": {
