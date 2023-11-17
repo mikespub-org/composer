@@ -3,18 +3,18 @@
         "mikespub/seblucas-cops": [
             {
                 "name": "mikespub/seblucas-cops",
-                "version": "2.2.0",
-                "version_normalized": "2.2.0.0",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/seblucas-cops.git",
-                    "reference": "307ae5a13838bb7809d23ba253b3e0e819d86b92"
+                    "reference": "e85f743f27b5adf2bfcfc6944c95df129b5daf19"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/seblucas-cops/mikespub-seblucas-cops-307ae5a13838bb7809d23ba253b3e0e819d86b92-zip-de7986.zip",
-                    "reference": "307ae5a13838bb7809d23ba253b3e0e819d86b92",
-                    "shasum": "9e68373641a47d427b389e5628dd8b6b2f8bae72"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/seblucas-cops/mikespub-seblucas-cops-e85f743f27b5adf2bfcfc6944c95df129b5daf19-zip-04afd1.zip",
+                    "reference": "e85f743f27b5adf2bfcfc6944c95df129b5daf19",
+                    "shasum": "5de3dc97c5192bd061135ed8a61ce6f7ccfe19ec"
                 },
                 "require": {
                     "ext-dom": "*",
@@ -55,7 +55,7 @@
                 "suggest": {
                     "mikespub/epub-loader": "epub-loader is a utility package for ebooks"
                 },
-                "time": "2023-09-25T16:08:41+00:00",
+                "time": "2023-11-16T11:30:59+00:00",
                 "type": "project",
                 "installation-source": "dist",
                 "autoload": {
@@ -85,7 +85,7 @@
                 ],
                 "description": "Calibre OPDS (and HTML) PHP Server : web-based light alternative to Calibre content server / Calibre2OPDS to serve ebooks (epub, mobi, pdf, ...)",
                 "support": {
-                    "source": "https://github.com/mikespub-org/seblucas-cops/tree/2.2.0",
+                    "source": "https://github.com/mikespub-org/seblucas-cops/tree/2.2.1",
                     "issues": "https://github.com/mikespub-org/seblucas-cops/issues"
                 }
             }

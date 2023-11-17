@@ -26,7 +26,7 @@
         "kiwilan/php-opds": "dev-paging",
         "mikespub/epub-loader": "^2.2.0",
         "mikespub/php-epub-meta": "^2.2.0",
-        "mikespub/seblucas-cops": "^2.2.0"
+        "mikespub/seblucas-cops": "^2.2.1"
     },
     "require-dependencies": false, 
     "require-dev-dependencies": false, 
