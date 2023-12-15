@@ -1,0 +1,87 @@
+{
+    "packages": {
+        "mikespub/middlewares-cache": [
+            {
+                "name": "mikespub/middlewares-cache",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub-org/middlewares-cache.git",
+                    "reference": "12216a4d0f1132b0c2f7a95d0c3f79ec118f2c82"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/middlewares-cache/mikespub-middlewares-cache-12216a4d0f1132b0c2f7a95d0c3f79ec118f2c82-zip-1dfc9d.zip",
+                    "reference": "12216a4d0f1132b0c2f7a95d0c3f79ec118f2c82",
+                    "shasum": "531b43447d9015add7d214e2ce4a7e5bfa0a9e2b"
+                },
+                "require": {
+                    "middlewares/utils": "^3.3",
+                    "mikespub/micheh-psr7-cache": "^2.0",
+                    "php": ">=8.1",
+                    "psr/cache": "^1.0 || ^2.0 || ^3.0",
+                    "psr/http-server-middleware": "^1.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.41",
+                    "matthiasmullie/scrapbook": "^1.5",
+                    "nyholm/psr7": "^1.8",
+                    "nyholm/psr7-server": "^1.1",
+                    "oscarotero/php-cs-fixer-config": "^2.0",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.5",
+                    "squizlabs/php_codesniffer": "^3.8"
+                },
+                "time": "2023-12-14T19:07:06+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Middlewares\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Middlewares\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "cs": [
+                        "phpcs"
+                    ],
+                    "cs-fix": [
+                        "php-cs-fixer fix"
+                    ],
+                    "phpstan": [
+                        "phpstan analyse"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "coverage": [
+                        "phpunit --coverage-text"
+                    ],
+                    "coverage-html": [
+                        "phpunit --coverage-html=coverage"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Middleware with various cache utilities",
+                "homepage": "https://github.com/middlewares/cache",
+                "keywords": [
+                    "http",
+                    "middleware",
+                    "psr-15",
+                    "psr-7"
+                ],
+                "support": {
+                    "issues": "https://github.com/middlewares/cache/issues",
+                    "source": "https://github.com/mikespub-org/middlewares-cache/tree/2.2.0"
+                }
+            }
+        ]
+    }
+}

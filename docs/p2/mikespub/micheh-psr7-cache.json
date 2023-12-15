@@ -1,0 +1,65 @@
+{
+    "packages": {
+        "mikespub/micheh-psr7-cache": [
+            {
+                "name": "mikespub/micheh-psr7-cache",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub-org/micheh-psr7-cache.git",
+                    "reference": "1f533d5df5cd016f81a64c6baeb8ca62dcad615e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/micheh-psr7-cache/mikespub-micheh-psr7-cache-1f533d5df5cd016f81a64c6baeb8ca62dcad615e-zip-0a4ff8.zip",
+                    "reference": "1f533d5df5cd016f81a64c6baeb8ca62dcad615e",
+                    "shasum": "ab43fc69a9a624884b6e7dc563e584e2ba2024ee"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "psr/http-message": "^1.1 || ^2.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^10.5"
+                },
+                "time": "2023-12-14T18:28:33+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Micheh\\Cache\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "MichehTest\\Cache\\": "test/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "Cache and conditional request helpers for PSR-7 HTTP Messages",
+                "keywords": [
+                    "cache",
+                    "conditional",
+                    "http",
+                    "http-message",
+                    "if-match",
+                    "if-modified-since",
+                    "if-none-match",
+                    "if-unmodified-since",
+                    "psr",
+                    "psr-7",
+                    "request",
+                    "response"
+                ],
+                "support": {
+                    "source": "https://github.com/mikespub-org/micheh-psr7-cache/tree/2.0.0",
+                    "issues": "https://github.com/mikespub-org/micheh-psr7-cache/issues"
+                }
+            }
+        ]
+    }
+}
