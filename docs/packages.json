@@ -2,12 +2,13 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "81e06991c54bffaabe6fa8525a60f9de58788136"
+            "sha1": "8d61bf0ac5b997bee98c266f424895af897723ec"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
         "kiwilan/php-opds",
+        "middlewares/utils",
         "mikespub/epub-loader",
         "mikespub/micheh-psr7-cache",
         "mikespub/middlewares-cache",
