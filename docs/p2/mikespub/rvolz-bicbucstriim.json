@@ -3,18 +3,18 @@
         "mikespub/rvolz-bicbucstriim": [
             {
                 "name": "mikespub/rvolz-bicbucstriim",
-                "version": "v3.1.0",
-                "version_normalized": "3.1.0.0",
+                "version": "v3.2.1",
+                "version_normalized": "3.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/rvolz-BicBucStriim.git",
-                    "reference": "32123f7ad65394756055dc76d0b25700a42fec9a"
+                    "reference": "6e75e2519bb56d6ea179e2c76ea5d402cce531db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/rvolz-bicbucstriim/mikespub-rvolz-bicbucstriim-32123f7ad65394756055dc76d0b25700a42fec9a-zip-370e09.zip",
-                    "reference": "32123f7ad65394756055dc76d0b25700a42fec9a",
-                    "shasum": "ed80740d8a519cded5203ce1282e7e2febece311"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/rvolz-bicbucstriim/mikespub-rvolz-bicbucstriim-6e75e2519bb56d6ea179e2c76ea5d402cce531db-zip-302a97.zip",
+                    "reference": "6e75e2519bb56d6ea179e2c76ea5d402cce531db",
+                    "shasum": "0201108e797aed96d5b4fcb8c81316519a521bc5"
                 },
                 "require": {
                     "8ctopus/apix-log": "^3.0",
@@ -23,23 +23,26 @@
                     "dflydev/fig-cookies": "^3.1",
                     "gabordemooij/redbean": "^5.7",
                     "michelf/php-markdown": "^2.0",
+                    "middlewares/cache": "^3.0",
                     "nyholm/psr7": "^1.8",
                     "nyholm/psr7-server": "^1.1",
                     "php-di/php-di": "^7.0",
+                    "phpmailer/phpmailer": "^6.9",
+                    "psr/cache": "^3.0",
                     "psr/container": "^2.0",
                     "psr/http-factory": "^1.0",
-                    "psr/http-message": "^1.1",
+                    "psr/http-message": "^1.1 || ^2.0",
                     "psr/http-server-middleware": "^1.0",
                     "psr/log": "^3.0",
                     "slim/slim": "^4.12",
-                    "swiftmailer/swiftmailer": "^6.3",
+                    "symfony/cache": "^7.0",
                     "twig/twig": "^3.8"
                 },
                 "require-dev": {
                     "alchemy/zippy": "^1.0",
                     "phpunit/phpunit": "^10.5"
                 },
-                "time": "2023-12-13T14:54:29+00:00",
+                "time": "2024-02-05T13:51:18+00:00",
                 "type": "project",
                 "autoload": {
                     "classmap": [
@@ -71,7 +74,7 @@
                 ],
                 "description": "BicBucStriim streams books, digital books. It fills a gap in the functionality of current NAS devices that provide access to music, videos and photos -- but not books. BicBucStriim fills this gap and provides web-based access to your e-book collection.",
                 "support": {
-                    "source": "https://github.com/mikespub-org/rvolz-BicBucStriim/tree/v3.1.0",
+                    "source": "https://github.com/mikespub-org/rvolz-BicBucStriim/tree/v3.2.1",
                     "issues": "https://github.com/mikespub-org/rvolz-BicBucStriim/issues"
                 }
             }

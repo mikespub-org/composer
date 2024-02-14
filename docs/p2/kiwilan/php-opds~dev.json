@@ -8,13 +8,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/kiwilan-php-opds.git",
-                    "reference": "dbc1f05e90c36862836a99759f8bb653471629fd"
+                    "reference": "45c654690f12825c70475db6e8471ff41fe1a215"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-dbc1f05e90c36862836a99759f8bb653471629fd-zip-7f203a.zip",
-                    "reference": "dbc1f05e90c36862836a99759f8bb653471629fd",
-                    "shasum": "5048fbba528b683c210e12393f9ac89075030f17"
+                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-45c654690f12825c70475db6e8471ff41fe1a215-zip-df2695.zip",
+                    "reference": "45c654690f12825c70475db6e8471ff41fe1a215",
+                    "shasum": "382d3eff2cc97585e84554852a6befe19fdfbedc"
                 },
                 "require": {
                     "php": "^8.1",
@@ -29,7 +29,7 @@
                     "spatie/ray": "^1.28",
                     "symfony/console": "^6.3"
                 },
-                "time": "2023-11-17T21:52:17+00:00",
+                "time": "2023-12-30T14:10:18+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -85,7 +85,7 @@
                     "php"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/kiwilan-php-opds/tree/paging"
+                    "source": "https://github.com/mikespub-org/kiwilan-php-opds/tree/develop"
                 },
                 "funding": [
                     {

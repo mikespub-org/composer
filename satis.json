@@ -40,13 +40,13 @@
     ],
     "require": {
         "kiwilan/php-opds": "dev-paging",
-        "mikespub/epub-loader": "^2.2.0",
-        "mikespub/php-epub-meta": "^2.2.0",
+        "mikespub/epub-loader": "^2.2.1",
+        "mikespub/php-epub-meta": "^2.2.1",
         "mikespub/seblucas-cops": "^2.2.1",
         "mikespub/micheh-psr7-cache": "^2.0.0",
-        "mikespub/middlewares-cache": "^2.2.0",
-        "middlewares/utils": "^3.4.0",
-        "mikespub/rvolz-bicbucstriim": "^3.1.0"
+        "mikespub/middlewares-cache": "^3.0.0",
+        "middlewares/utils": "^4.0.0",
+        "mikespub/rvolz-bicbucstriim": "^3.2.1"
     },
     "require-dependencies": false, 
     "require-dev-dependencies": false, 
