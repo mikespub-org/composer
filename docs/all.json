@@ -8,17 +8,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/kiwilan-php-opds.git",
-                    "reference": "45c654690f12825c70475db6e8471ff41fe1a215"
+                    "reference": "f19ea1705ec7d2e56250476b3b81b5f84cf45155"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-45c654690f12825c70475db6e8471ff41fe1a215-zip-df2695.zip",
-                    "reference": "45c654690f12825c70475db6e8471ff41fe1a215",
-                    "shasum": "382d3eff2cc97585e84554852a6befe19fdfbedc"
+                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-f19ea1705ec7d2e56250476b3b81b5f84cf45155-zip-14484a.zip",
+                    "reference": "f19ea1705ec7d2e56250476b3b81b5f84cf45155",
+                    "shasum": "67fc47fe0b1772af86f60ec526ae078b96b891be"
                 },
                 "require": {
                     "php": "^8.1",
-                    "spatie/array-to-xml": "^3.1"
+                    "spatie/array-to-xml": "^3.2.3"
                 },
                 "require-dev": {
                     "kiwilan/php-xml-reader": "^1.0",
@@ -29,8 +29,9 @@
                     "spatie/ray": "^1.28",
                     "symfony/console": "^6.3"
                 },
-                "time": "2023-12-30T14:10:18+00:00",
+                "time": "2024-02-17T09:32:32+00:00",
                 "type": "library",
+                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Kiwilan\\Opds\\": "src"
@@ -182,20 +183,20 @@
             }
         },
         "mikespub/epub-loader": {
-            "2.2.1": {
+            "2.5.0": {
                 "name": "mikespub/epub-loader",
-                "version": "2.2.1",
-                "version_normalized": "2.2.1.0",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/epub-loader.git",
-                    "reference": "686e0444216b432468338f43a1c43a553455d124"
+                    "reference": "8360c592d7cf45e2ace2d77079dc0b06b0830e8e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epub-loader/mikespub-epub-loader-686e0444216b432468338f43a1c43a553455d124-zip-ee6369.zip",
-                    "reference": "686e0444216b432468338f43a1c43a553455d124",
-                    "shasum": "ffde6a4ddd802ca19e0be49573d20ae014a28426"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epub-loader/mikespub-epub-loader-8360c592d7cf45e2ace2d77079dc0b06b0830e8e-zip-ee2547.zip",
+                    "reference": "8360c592d7cf45e2ace2d77079dc0b06b0830e8e",
+                    "shasum": "144400261272ede52f4ed4bb07184b71d85a8acb"
                 },
                 "require": {
                     "ext-dom": "*",
@@ -212,8 +213,9 @@
                 "suggest": {
                     "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
                 },
-                "time": "2024-02-05T13:03:31+00:00",
+                "time": "2024-03-07T15:01:36+00:00",
                 "type": "project",
+                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/",
@@ -237,8 +239,56 @@
                 ],
                 "description": "epub-loader is a utility resource for ebooks",
                 "support": {
-                    "source": "https://github.com/mikespub-org/epub-loader/tree/2.2.1",
+                    "source": "https://github.com/mikespub-org/epub-loader/tree/2.5.0",
                     "issues": "https://github.com/mikespub-org/epub-loader/issues"
+                }
+            }
+        },
+        "mikespub/epubjs-reader": {
+            "2024.3.5": {
+                "name": "mikespub/epubjs-reader",
+                "version": "2024.3.5",
+                "version_normalized": "2024.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub-org/intity-epubjs-reader.git",
+                    "reference": "8f0c5cebf5d8a6c2b8d595f4a4decf9af7a74fe0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epubjs-reader/mikespub-epubjs-reader-8f0c5cebf5d8a6c2b8d595f4a4decf9af7a74fe0-zip-3687cd.zip",
+                    "reference": "8f0c5cebf5d8a6c2b8d595f4a4decf9af7a74fe0",
+                    "shasum": "6f31402ae32d8ecb6623b4cad4406019182422e5"
+                },
+                "suggest": {
+                    "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
+                },
+                "time": "2024-03-04T15:08:36+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "fchasen",
+                        "homepage": "https://github.com/futurepress/epubjs-reader",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "intity",
+                        "homepage": "https://github.com/intity/epubjs-reader",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "mikespub",
+                        "homepage": "https://github.com/mikespub-org/intity-epubjs-reader",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Epub.js Reader with zipfs.php",
+                "support": {
+                    "source": "https://github.com/mikespub-org/intity-epubjs-reader/tree/2024.3.5"
                 }
             }
         },
@@ -303,20 +353,20 @@
             }
         },
         "mikespub/php-epub-meta": {
-            "2.2.1": {
+            "2.2.2": {
                 "name": "mikespub/php-epub-meta",
-                "version": "2.2.1",
-                "version_normalized": "2.2.1.0",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/php-epub-meta.git",
-                    "reference": "ec75d61afcf7bcc3ee008aee5df723fd2f6b324e"
+                    "reference": "f137bc1cd5dd91dcc295503cf2327d99bddba0e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/php-epub-meta/mikespub-php-epub-meta-ec75d61afcf7bcc3ee008aee5df723fd2f6b324e-zip-dc5b93.zip",
-                    "reference": "ec75d61afcf7bcc3ee008aee5df723fd2f6b324e",
-                    "shasum": "2e8f4e2d05e6a1fa2cca61c49a1e88a867c06940"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/php-epub-meta/mikespub-php-epub-meta-f137bc1cd5dd91dcc295503cf2327d99bddba0e6-zip-e9c997.zip",
+                    "reference": "f137bc1cd5dd91dcc295503cf2327d99bddba0e6",
+                    "shasum": "29bb0ed955629b96c17cd3930f43761881b41944"
                 },
                 "require": {
                     "ext-dom": "*",
@@ -324,18 +374,19 @@
                     "ext-xml": "*",
                     "ext-zip": "*",
                     "ext-zlib": "*",
-                    "maennchen/zipstream-php": "~3.1",
+                    "maennchen/zipstream-php": "^3.1",
                     "php": ">=8.1"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "9.*"
+                    "phpunit/phpunit": "^10.5"
                 },
                 "suggest": {
                     "mikespub/epub-loader": "epub-loader is a utility resource for ebooks",
                     "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
                 },
-                "time": "2024-02-05T12:59:25+00:00",
+                "time": "2024-03-02T13:34:51+00:00",
                 "type": "library",
+                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -371,26 +422,26 @@
                     "metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/php-epub-meta/tree/2.2.1",
+                    "source": "https://github.com/mikespub-org/php-epub-meta/tree/2.2.2",
                     "issues": "https://github.com/mikespub-org/php-epub-meta/issues"
                 }
             }
         },
         "mikespub/rvolz-bicbucstriim": {
-            "v3.2.1": {
+            "v3.2.2": {
                 "name": "mikespub/rvolz-bicbucstriim",
-                "version": "v3.2.1",
-                "version_normalized": "3.2.1.0",
+                "version": "v3.2.2",
+                "version_normalized": "3.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/rvolz-BicBucStriim.git",
-                    "reference": "6e75e2519bb56d6ea179e2c76ea5d402cce531db"
+                    "reference": "49456a10a05af53b81c7e3863677fb474b4b0c5b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/rvolz-bicbucstriim/mikespub-rvolz-bicbucstriim-6e75e2519bb56d6ea179e2c76ea5d402cce531db-zip-302a97.zip",
-                    "reference": "6e75e2519bb56d6ea179e2c76ea5d402cce531db",
-                    "shasum": "0201108e797aed96d5b4fcb8c81316519a521bc5"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/rvolz-bicbucstriim/mikespub-rvolz-bicbucstriim-49456a10a05af53b81c7e3863677fb474b4b0c5b-zip-6a64c1.zip",
+                    "reference": "49456a10a05af53b81c7e3863677fb474b4b0c5b",
+                    "shasum": "d9e04105d9e77c5acf4f0bdd22d38ab97c47c029"
                 },
                 "require": {
                     "8ctopus/apix-log": "^3.0",
@@ -418,8 +469,9 @@
                     "alchemy/zippy": "^1.0",
                     "phpunit/phpunit": "^10.5"
                 },
-                "time": "2024-02-05T13:51:18+00:00",
+                "time": "2024-03-02T13:07:46+00:00",
                 "type": "project",
+                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src"
@@ -450,26 +502,26 @@
                 ],
                 "description": "BicBucStriim streams books, digital books. It fills a gap in the functionality of current NAS devices that provide access to music, videos and photos -- but not books. BicBucStriim fills this gap and provides web-based access to your e-book collection.",
                 "support": {
-                    "source": "https://github.com/mikespub-org/rvolz-BicBucStriim/tree/v3.2.1",
+                    "source": "https://github.com/mikespub-org/rvolz-BicBucStriim/tree/v3.2.2",
                     "issues": "https://github.com/mikespub-org/rvolz-BicBucStriim/issues"
                 }
             }
         },
         "mikespub/seblucas-cops": {
-            "2.2.1": {
+            "2.5.1": {
                 "name": "mikespub/seblucas-cops",
-                "version": "2.2.1",
-                "version_normalized": "2.2.1.0",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/seblucas-cops.git",
-                    "reference": "e85f743f27b5adf2bfcfc6944c95df129b5daf19"
+                    "reference": "42d10d4ab1a9c905b4c5110241d95567c4627025"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/seblucas-cops/mikespub-seblucas-cops-e85f743f27b5adf2bfcfc6944c95df129b5daf19-zip-04afd1.zip",
-                    "reference": "e85f743f27b5adf2bfcfc6944c95df129b5daf19",
-                    "shasum": "5de3dc97c5192bd061135ed8a61ce6f7ccfe19ec"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/seblucas-cops/mikespub-seblucas-cops-42d10d4ab1a9c905b4c5110241d95567c4627025-zip-f4bfe1.zip",
+                    "reference": "42d10d4ab1a9c905b4c5110241d95567c4627025",
+                    "shasum": "2ae1e3d27dba681ef061cb9f4a455bd7b4ff1748"
                 },
                 "require": {
                     "ext-dom": "*",
@@ -482,36 +534,39 @@
                     "ext-xmlwriter": "*",
                     "ext-zip": "*",
                     "ext-zlib": "*",
-                    "mikespub/php-epub-meta": "~2.2",
-                    "nikic/fast-route": "~2.0-dev",
-                    "npm-asset/bootstrap": "~3.4",
-                    "npm-asset/corejs-typeahead": "~1.3",
-                    "npm-asset/dot": "~1.1",
-                    "npm-asset/jquery": "~3.7",
-                    "npm-asset/js-cookie": "~2.2",
-                    "npm-asset/lru-fast": "~0.2",
-                    "npm-asset/magnific-popup": "~1.1",
-                    "npm-asset/normalize.css": "~8.0",
-                    "npm-asset/twig": "~1.16",
+                    "mikespub/epubjs-reader": "^2024.3",
+                    "mikespub/php-epub-meta": "^2.2",
+                    "nikic/fast-route": "^2.0-dev",
+                    "npm-asset/bootstrap": "^3.4",
+                    "npm-asset/corejs-typeahead": "^1.3",
+                    "npm-asset/dot": "^1.1",
+                    "npm-asset/jquery": "^3.7",
+                    "npm-asset/js-cookie": "^2.2",
+                    "npm-asset/lru-fast": "^0.2",
+                    "npm-asset/magnific-popup": "^1.1",
+                    "npm-asset/normalize.css": "^8.0",
+                    "npm-asset/twig": "^1.17",
                     "php": ">=8.1",
-                    "phpmailer/phpmailer": "~6.8",
-                    "twig/twig": "~3.7"
+                    "phpmailer/phpmailer": "^6.9",
+                    "twig/twig": "^3.8"
                 },
                 "require-dev": {
-                    "kiwilan/php-opds": "~1.0.30",
-                    "mikespub/epub-loader": "~2.2",
-                    "opis/json-schema": "~2.3",
-                    "phing/phing": "~2.17",
+                    "kiwilan/php-opds": "^2.0",
+                    "mikespub/epub-loader": "^2.5",
+                    "opis/json-schema": "^2.3",
+                    "phing/phing": "^2.17",
                     "php-webdriver/webdriver": "dev-main",
-                    "phpunit/phpunit": "~9.6",
-                    "symfony/browser-kit": "~6.3",
-                    "symfony/http-client": "~6.3"
+                    "phpunit/phpunit": "^10.5",
+                    "symfony/browser-kit": "^6.4",
+                    "symfony/http-client": "^6.4"
                 },
                 "suggest": {
-                    "mikespub/epub-loader": "epub-loader is a utility package for ebooks"
+                    "mikespub/epub-loader": "epub-loader is a utility package for ebooks",
+                    "mikespub/epubjs-reader": "epub.js reader with zipfs.php"
                 },
-                "time": "2023-11-16T11:30:59+00:00",
+                "time": "2024-03-07T16:50:13+00:00",
                 "type": "project",
+                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "lib/",
@@ -539,7 +594,7 @@
                 ],
                 "description": "Calibre OPDS (and HTML) PHP Server : web-based light alternative to Calibre content server / Calibre2OPDS to serve ebooks (epub, mobi, pdf, ...)",
                 "support": {
-                    "source": "https://github.com/mikespub-org/seblucas-cops/tree/2.2.1",
+                    "source": "https://github.com/mikespub-org/seblucas-cops/tree/2.5.1",
                     "issues": "https://github.com/mikespub-org/seblucas-cops/issues"
                 }
             }

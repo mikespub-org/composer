@@ -2,7 +2,7 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "fdc833ceaad6934139f0579505e1045d7e2063cb"
+            "sha1": "be7dffe5479b9b2859ddfc9f2d27870f527bb3ee"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
@@ -10,6 +10,7 @@
         "kiwilan/php-opds",
         "middlewares/utils",
         "mikespub/epub-loader",
+        "mikespub/epubjs-reader",
         "mikespub/micheh-psr7-cache",
         "mikespub/php-epub-meta",
         "mikespub/rvolz-bicbucstriim",

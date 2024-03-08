@@ -3,18 +3,18 @@
         "mikespub/rvolz-bicbucstriim": [
             {
                 "name": "mikespub/rvolz-bicbucstriim",
-                "version": "v3.2.1",
-                "version_normalized": "3.2.1.0",
+                "version": "v3.2.2",
+                "version_normalized": "3.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/rvolz-BicBucStriim.git",
-                    "reference": "6e75e2519bb56d6ea179e2c76ea5d402cce531db"
+                    "reference": "49456a10a05af53b81c7e3863677fb474b4b0c5b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/rvolz-bicbucstriim/mikespub-rvolz-bicbucstriim-6e75e2519bb56d6ea179e2c76ea5d402cce531db-zip-302a97.zip",
-                    "reference": "6e75e2519bb56d6ea179e2c76ea5d402cce531db",
-                    "shasum": "0201108e797aed96d5b4fcb8c81316519a521bc5"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/rvolz-bicbucstriim/mikespub-rvolz-bicbucstriim-49456a10a05af53b81c7e3863677fb474b4b0c5b-zip-6a64c1.zip",
+                    "reference": "49456a10a05af53b81c7e3863677fb474b4b0c5b",
+                    "shasum": "d9e04105d9e77c5acf4f0bdd22d38ab97c47c029"
                 },
                 "require": {
                     "8ctopus/apix-log": "^3.0",
@@ -42,8 +42,9 @@
                     "alchemy/zippy": "^1.0",
                     "phpunit/phpunit": "^10.5"
                 },
-                "time": "2024-02-05T13:51:18+00:00",
+                "time": "2024-03-02T13:07:46+00:00",
                 "type": "project",
+                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src"
@@ -74,7 +75,7 @@
                 ],
                 "description": "BicBucStriim streams books, digital books. It fills a gap in the functionality of current NAS devices that provide access to music, videos and photos -- but not books. BicBucStriim fills this gap and provides web-based access to your e-book collection.",
                 "support": {
-                    "source": "https://github.com/mikespub-org/rvolz-BicBucStriim/tree/v3.2.1",
+                    "source": "https://github.com/mikespub-org/rvolz-BicBucStriim/tree/v3.2.2",
                     "issues": "https://github.com/mikespub-org/rvolz-BicBucStriim/issues"
                 }
             }

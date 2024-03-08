@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "mikespub/epubjs-reader": [
+            {
+                "name": "mikespub/epubjs-reader",
+                "version": "2024.3.5",
+                "version_normalized": "2024.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub-org/intity-epubjs-reader.git",
+                    "reference": "8f0c5cebf5d8a6c2b8d595f4a4decf9af7a74fe0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epubjs-reader/mikespub-epubjs-reader-8f0c5cebf5d8a6c2b8d595f4a4decf9af7a74fe0-zip-3687cd.zip",
+                    "reference": "8f0c5cebf5d8a6c2b8d595f4a4decf9af7a74fe0",
+                    "shasum": "6f31402ae32d8ecb6623b4cad4406019182422e5"
+                },
+                "suggest": {
+                    "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
+                },
+                "time": "2024-03-04T15:08:36+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "fchasen",
+                        "homepage": "https://github.com/futurepress/epubjs-reader",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "intity",
+                        "homepage": "https://github.com/intity/epubjs-reader",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "mikespub",
+                        "homepage": "https://github.com/mikespub-org/intity-epubjs-reader",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Epub.js Reader with zipfs.php",
+                "support": {
+                    "source": "https://github.com/mikespub-org/intity-epubjs-reader/tree/2024.3.5"
+                }
+            }
+        ]
+    }
+}

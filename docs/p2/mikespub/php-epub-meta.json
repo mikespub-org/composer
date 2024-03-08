@@ -3,18 +3,18 @@
         "mikespub/php-epub-meta": [
             {
                 "name": "mikespub/php-epub-meta",
-                "version": "2.2.1",
-                "version_normalized": "2.2.1.0",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/php-epub-meta.git",
-                    "reference": "ec75d61afcf7bcc3ee008aee5df723fd2f6b324e"
+                    "reference": "f137bc1cd5dd91dcc295503cf2327d99bddba0e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/php-epub-meta/mikespub-php-epub-meta-ec75d61afcf7bcc3ee008aee5df723fd2f6b324e-zip-dc5b93.zip",
-                    "reference": "ec75d61afcf7bcc3ee008aee5df723fd2f6b324e",
-                    "shasum": "2e8f4e2d05e6a1fa2cca61c49a1e88a867c06940"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/php-epub-meta/mikespub-php-epub-meta-f137bc1cd5dd91dcc295503cf2327d99bddba0e6-zip-e9c997.zip",
+                    "reference": "f137bc1cd5dd91dcc295503cf2327d99bddba0e6",
+                    "shasum": "29bb0ed955629b96c17cd3930f43761881b41944"
                 },
                 "require": {
                     "ext-dom": "*",
@@ -22,18 +22,19 @@
                     "ext-xml": "*",
                     "ext-zip": "*",
                     "ext-zlib": "*",
-                    "maennchen/zipstream-php": "~3.1",
+                    "maennchen/zipstream-php": "^3.1",
                     "php": ">=8.1"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "9.*"
+                    "phpunit/phpunit": "^10.5"
                 },
                 "suggest": {
                     "mikespub/epub-loader": "epub-loader is a utility resource for ebooks",
                     "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
                 },
-                "time": "2024-02-05T12:59:25+00:00",
+                "time": "2024-03-02T13:34:51+00:00",
                 "type": "library",
+                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/"
@@ -69,7 +70,7 @@
                     "metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/php-epub-meta/tree/2.2.1",
+                    "source": "https://github.com/mikespub-org/php-epub-meta/tree/2.2.2",
                     "issues": "https://github.com/mikespub-org/php-epub-meta/issues"
                 }
             }

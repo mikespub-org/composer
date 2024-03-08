@@ -15,6 +15,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/mikespub-org/intity-epubjs-reader"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/mikespub-org/seblucas-cops"
         },
         {
@@ -40,13 +44,14 @@
     ],
     "require": {
         "kiwilan/php-opds": "dev-paging",
-        "mikespub/epub-loader": "^2.2.1",
-        "mikespub/php-epub-meta": "^2.2.1",
-        "mikespub/seblucas-cops": "^2.2.1",
+        "mikespub/epub-loader": "^2.5.0",
+        "mikespub/epubjs-reader": "^2024.3.5",
+        "mikespub/php-epub-meta": "^2.2.2",
+        "mikespub/seblucas-cops": "^2.5.1",
         "mikespub/micheh-psr7-cache": "^2.0.0",
         "mikespub/middlewares-cache": "^3.0.0",
         "middlewares/utils": "^4.0.0",
-        "mikespub/rvolz-bicbucstriim": "^3.2.1"
+        "mikespub/rvolz-bicbucstriim": "^3.2.2"
     },
     "require-dependencies": false, 
     "require-dev-dependencies": false, 
