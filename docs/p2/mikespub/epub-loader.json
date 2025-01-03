@@ -33,7 +33,6 @@
                 },
                 "time": "2024-03-07T15:01:36+00:00",
                 "type": "project",
-                "installation-source": "dist",
                 "autoload": {
                     "classmap": [
                         "src/",
