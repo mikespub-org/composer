@@ -1,5 +1,100 @@
 {
     "packages": {
-        "kiwilan/php-opds": []
+        "kiwilan/php-opds": [
+            {
+                "name": "kiwilan/php-opds",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub-org/kiwilan-php-opds.git",
+                    "reference": "b9594ad7a3b80a32bda849c0ccf2cb54f5bd0435"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github-org.mikespub.net/composer//dist/kiwilan/php-opds/kiwilan-php-opds-b9594ad7a3b80a32bda849c0ccf2cb54f5bd0435-zip-1a0003.zip",
+                    "reference": "b9594ad7a3b80a32bda849c0ccf2cb54f5bd0435",
+                    "shasum": "76d3b942f4ee4270eab72f317db220904ea1cece"
+                },
+                "require": {
+                    "php": "^8.1",
+                    "spatie/array-to-xml": "^3.2.3"
+                },
+                "require-dev": {
+                    "kiwilan/php-xml-reader": "^1.0",
+                    "laravel/pint": "^1.2",
+                    "opis/json-schema": "^2.3",
+                    "pestphp/pest": "^1.20",
+                    "phpstan/phpstan": "^1.10",
+                    "spatie/ray": "^1.28",
+                    "symfony/console": "^6.3"
+                },
+                "time": "2024-06-26T06:41:02+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Kiwilan\\Opds\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Kiwilan\\Opds\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-filter": [
+                        "vendor/bin/pest --filter"
+                    ],
+                    "test-parallel": [
+                        "vendor/bin/pest --parallel"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage --min=90"
+                    ],
+                    "test-coverage-parallel": [
+                        "vendor/bin/pest --parallel --coverage"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ewilan Rivière",
+                        "email": "ewilan.riviere@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "PHP package to create OPDS feed for eBooks.",
+                "homepage": "https://github.com/kiwilan/php-opds",
+                "keywords": [
+                    "api",
+                    "atom",
+                    "book",
+                    "ebook",
+                    "opds",
+                    "php"
+                ],
+                "support": {
+                    "source": "https://github.com/mikespub-org/kiwilan-php-opds/tree/v2.1.0"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/kiwilan"
+                    }
+                ]
+            }
+        ]
     }
 }
