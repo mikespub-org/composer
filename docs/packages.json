@@ -2,17 +2,19 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "a9e183d48039308a2af5ee1518f11ae0e275e658"
+            "sha1": "db3837d556e253aeca72265e6b8d6cc5722a226a"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
         "kiwilan/php-opds",
+        "middlewares/utils",
         "mikespub/epub-loader",
         "mikespub/epubjs-reader",
         "mikespub/micheh-psr7-cache",
         "mikespub/php-epub-meta",
         "mikespub/rvolz-bicbucstriim",
-        "mikespub/seblucas-cops"
+        "mikespub/seblucas-cops",
+        "mikespub/survos-wikidata"
     ]
 }

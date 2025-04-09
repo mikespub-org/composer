@@ -1,0 +1,90 @@
+{
+    "packages": {
+        "mikespub/survos-wikidata": [
+            {
+                "name": "mikespub/survos-wikidata",
+                "version": "5.2.3",
+                "version_normalized": "5.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub-org/survos-wikidata.git",
+                    "reference": "2a908b182fdaf66100d9fe220621b687d7ab390d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/survos-wikidata/mikespub-survos-wikidata-2a908b182fdaf66100d9fe220621b687d7ab390d-zip-cdb3c6.zip",
+                    "reference": "2a908b182fdaf66100d9fe220621b687d7ab390d",
+                    "shasum": "582014767b87bd0631cf9222ceff24cace5c0ced"
+                },
+                "require": {
+                    "illuminate/collections": "^10.0||^11.0||^12.0",
+                    "php": ">=8.2",
+                    "symfony/http-client": "^6.4||^7.2"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^1.12",
+                    "phpunit/phpunit": "^10.5||^11.5",
+                    "rector/rector": "^1.2"
+                },
+                "time": "2025-03-14T10:11:09+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Wikidata\\": "src"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Arhey",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "tacman",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "mikespub",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A PHP client for working with Wikidata API.",
+                "homepage": "https://github.com/mikespub-org/survos-wikidata",
+                "keywords": [
+                    "client",
+                    "php",
+                    "wikidata"
+                ],
+                "support": {
+                    "source": "https://github.com/mikespub-org/survos-wikidata/tree/5.2.3"
+                },
+                "funding": [
+                    {
+                        "type": "custom",
+                        "url": "https://www.paypal.me/arhey"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://www.buymeacoffee.com/arhey"
+                    }
+                ]
+            }
+        ]
+    }
+}

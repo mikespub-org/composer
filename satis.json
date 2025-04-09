@@ -40,21 +40,26 @@
         {
             "type": "vcs",
             "url": "https://github.com/mikespub-org/micheh-psr7-cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikespub-org/survos-wikidata"
         }
     ],
     "require": {
         "kiwilan/php-opds": "^2.1.0",
-        "mikespub/epub-loader": "^3.5.12",
-        "mikespub/epubjs-reader": "^2025.01.02",
-        "mikespub/php-epub-meta": "^3.3.4",
-        "mikespub/seblucas-cops": "^3.5.4",
+        "mikespub/epub-loader": "^3.6.1",
+        "mikespub/epubjs-reader": "^2025.04.08",
+        "mikespub/php-epub-meta": "^3.3.5",
+        "mikespub/seblucas-cops": "^3.6.1",
         "mikespub/micheh-psr7-cache": "^2.0.2",
-        "mikespub/middlewares-cache": "^3.0.0",
-        "middlewares/utils": "^4.0.1",
-        "mikespub/rvolz-bicbucstriim": "^3.6.3"
+        "mikespub/middlewares-cache": "^3.1.0",
+        "middlewares/utils": "^4.0.2",
+        "mikespub/rvolz-bicbucstriim": "^3.6.3",
+        "mikespub/survos-wikidata": "^5.2.3"
     },
-    "require-dependencies": false, 
-    "require-dev-dependencies": false, 
+    "require-dependencies": false,
+    "require-dev-dependencies": false,
     "archive": {
         "directory": "dist",
         "skip-dev": false

@@ -3,18 +3,18 @@
         "mikespub/epub-loader": [
             {
                 "name": "mikespub/epub-loader",
-                "version": "3.5.12",
-                "version_normalized": "3.5.12.0",
+                "version": "3.6.1",
+                "version_normalized": "3.6.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/epub-loader.git",
-                    "reference": "4b8117ecc60933c868b1069d186d6d093bfd8b07"
+                    "reference": "f5b6a9240b9ecd394dd75032d730ff7226208a2f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epub-loader/mikespub-epub-loader-4b8117ecc60933c868b1069d186d6d093bfd8b07-zip-6c1032.zip",
-                    "reference": "4b8117ecc60933c868b1069d186d6d093bfd8b07",
-                    "shasum": "8ddf6441cc890956eb297007043af2275438f9b8"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epub-loader/mikespub-epub-loader-f5b6a9240b9ecd394dd75032d730ff7226208a2f-zip-d8babc.zip",
+                    "reference": "f5b6a9240b9ecd394dd75032d730ff7226208a2f",
+                    "shasum": "ef18d7309b5bc0ad812565f19f4963164ce21816"
                 },
                 "require": {
                     "ext-dom": "*",
@@ -26,16 +26,25 @@
                     "mikespub/php-epub-meta": "^3.3",
                     "mikespub/survos-wikidata": "^5.2",
                     "php": ">=8.2",
-                    "twig/twig": "^3.16"
+                    "twig/twig": "^3.20"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^10.5||^11.5"
+                    "phpunit/phpunit": "^11.5"
                 },
                 "suggest": {
+                    "google/apiclient": "Client library for Google APIs",
+                    "league/flysystem": "File storage abstraction for PHP",
+                    "league/flysystem-read-only": "Read-only filesystem adapter for Flysystem",
+                    "masbug/flysystem-google-drive-ext": "Flysystem adapter for Google Drive with seamless virtualdisplay path translation",
                     "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
                 },
-                "time": "2024-12-08T12:45:51+00:00",
+                "time": "2025-02-20T21:00:22+00:00",
                 "type": "project",
+                "extra": {
+                    "google/apiclient-services": [
+                        "Drive"
+                    ]
+                },
                 "installation-source": "dist",
                 "autoload": {
                     "classmap": [
@@ -65,7 +74,7 @@
                 ],
                 "description": "epub-loader is a utility resource for ebooks",
                 "support": {
-                    "source": "https://github.com/mikespub-org/epub-loader/tree/3.5.12",
+                    "source": "https://github.com/mikespub-org/epub-loader/tree/3.6.1",
                     "issues": "https://github.com/mikespub-org/epub-loader/issues"
                 }
             }

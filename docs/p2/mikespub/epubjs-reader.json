@@ -3,23 +3,23 @@
         "mikespub/epubjs-reader": [
             {
                 "name": "mikespub/epubjs-reader",
-                "version": "2025.01.02",
-                "version_normalized": "2025.01.02.0",
+                "version": "2025.04.08",
+                "version_normalized": "2025.04.08.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/intity-epubjs-reader.git",
-                    "reference": "37125a6067180eb9877742d217a7bb40cd245040"
+                    "reference": "9bec68dc3275690193677339e4c33ad239cc7cfd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epubjs-reader/mikespub-epubjs-reader-37125a6067180eb9877742d217a7bb40cd245040-zip-d4b770.zip",
-                    "reference": "37125a6067180eb9877742d217a7bb40cd245040",
-                    "shasum": "359efd981d1b5db51c9ce6cee245aea44b975d74"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/epubjs-reader/mikespub-epubjs-reader-9bec68dc3275690193677339e4c33ad239cc7cfd-zip-de8e49.zip",
+                    "reference": "9bec68dc3275690193677339e4c33ad239cc7cfd",
+                    "shasum": "9514fddd3782575de26e86c6e7dac10c17613c22"
                 },
                 "suggest": {
                     "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
                 },
-                "time": "2025-01-02T16:07:41+00:00",
+                "time": "2025-04-08T09:18:22+00:00",
                 "type": "library",
                 "installation-source": "dist",
                 "license": [
@@ -44,7 +44,7 @@
                 ],
                 "description": "Epub.js Reader with zipfs.php",
                 "support": {
-                    "source": "https://github.com/mikespub-org/intity-epubjs-reader/tree/2025.01.02",
+                    "source": "https://github.com/mikespub-org/intity-epubjs-reader/tree/2025.04.08",
                     "issues": "https://github.com/mikespub-org/intity-epubjs-reader/issues"
                 }
             }
