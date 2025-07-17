@@ -37,7 +37,6 @@
                 },
                 "time": "2025-01-23T13:33:55+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Middlewares\\Utils\\": "src/"

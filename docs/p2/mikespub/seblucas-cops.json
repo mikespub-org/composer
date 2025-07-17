@@ -3,18 +3,18 @@
         "mikespub/seblucas-cops": [
             {
                 "name": "mikespub/seblucas-cops",
-                "version": "3.6.1",
-                "version_normalized": "3.6.1.0",
+                "version": "3.7.1",
+                "version_normalized": "3.7.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/seblucas-cops.git",
-                    "reference": "cd79c917576a69b32adbf204abf724bb92593c07"
+                    "reference": "d925318109c66b8a3507656d0de31ceb6ba3cd16"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/seblucas-cops/mikespub-seblucas-cops-cd79c917576a69b32adbf204abf724bb92593c07-zip-1ec37b.zip",
-                    "reference": "cd79c917576a69b32adbf204abf724bb92593c07",
-                    "shasum": "ae7f9e307d1e3ea2b57b21da2ad96253d21b419e"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/seblucas-cops/mikespub-seblucas-cops-d925318109c66b8a3507656d0de31ceb6ba3cd16-zip-48cc9e.zip",
+                    "reference": "d925318109c66b8a3507656d0de31ceb6ba3cd16",
+                    "shasum": "6246cc3a2e4f28d493ca1c30cbd9cfe5dd84567b"
                 },
                 "require": {
                     "ext-dom": "*",
@@ -26,8 +26,8 @@
                     "ext-xml": "*",
                     "ext-zip": "*",
                     "ext-zlib": "*",
-                    "mikespub/epubjs-reader": "^2025.04",
-                    "mikespub/php-epub-meta": "^3.3",
+                    "mikespub/epubjs-reader": "^2025.07",
+                    "mikespub/php-epub-meta": "^3.5",
                     "npm-asset/bootstrap": "^3.4",
                     "npm-asset/corejs-typeahead": "^1.3",
                     "npm-asset/dot": "^1.1",
@@ -38,29 +38,29 @@
                     "npm-asset/normalize.css": "^8.0",
                     "npm-asset/twig": "^1.17",
                     "php": ">=8.2",
-                    "phpmailer/phpmailer": "^6.9",
-                    "symfony/config": "^6.4||^7.2",
-                    "symfony/routing": "^6.4||^7.2",
-                    "symfony/string": "^6.4||^7.2",
-                    "symfony/translation-contracts": "^3.5",
-                    "twig/twig": "^3.20"
+                    "phpmailer/phpmailer": "^6.10",
+                    "symfony/config": "^6.4||^7.3",
+                    "symfony/routing": "^6.4||^7.3",
+                    "symfony/string": "^6.4||^7.3",
+                    "symfony/translation-contracts": "^3.6",
+                    "twig/twig": "^3.21"
                 },
                 "require-dev": {
-                    "kiwilan/php-opds": "^2.1",
+                    "kiwilan/php-opds": "^2.2",
                     "mikespub/epub-loader": "^3.6",
                     "nikic/fast-route": "2.0.0-beta1",
                     "opis/json-schema": "^2.4",
                     "php-webdriver/webdriver": "dev-main",
                     "phpunit/phpunit": "^11.5",
-                    "symfony/browser-kit": "^7.2",
-                    "symfony/http-client": "^7.2",
-                    "symfony/http-foundation": "^7.2",
+                    "symfony/browser-kit": "^7.3",
+                    "symfony/http-client": "^7.3",
+                    "symfony/http-foundation": "^7.3",
                     "webonyx/graphql-php": "^15.20"
                 },
                 "suggest": {
                     "mikespub/epub-loader": "epub-loader is a utility package for ebooks"
                 },
-                "time": "2025-04-09T10:11:00+00:00",
+                "time": "2025-07-06T10:10:22+00:00",
                 "type": "project",
                 "installation-source": "dist",
                 "autoload": {
@@ -90,7 +90,7 @@
                 ],
                 "description": "Calibre OPDS (and HTML) PHP Server : web-based light alternative to Calibre content server / Calibre2OPDS to serve ebooks (epub, mobi, pdf, ...)",
                 "support": {
-                    "source": "https://github.com/mikespub-org/seblucas-cops/tree/3.6.1",
+                    "source": "https://github.com/mikespub-org/seblucas-cops/tree/3.7.1",
                     "issues": "https://github.com/mikespub-org/seblucas-cops/issues"
                 }
             }

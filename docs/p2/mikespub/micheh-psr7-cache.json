@@ -3,29 +3,30 @@
         "mikespub/micheh-psr7-cache": [
             {
                 "name": "mikespub/micheh-psr7-cache",
-                "version": "2.0.2",
-                "version_normalized": "2.0.2.0",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/micheh-psr7-cache.git",
-                    "reference": "a327cedf2c118d9675d98a06b308784c05df7cc3"
+                    "reference": "dc675fcb65e41ebd6516dd5f024376b533391856"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/micheh-psr7-cache/mikespub-micheh-psr7-cache-a327cedf2c118d9675d98a06b308784c05df7cc3-zip-c067ec.zip",
-                    "reference": "a327cedf2c118d9675d98a06b308784c05df7cc3",
-                    "shasum": "bfa88ce897d21174f3bb3bd65f7e6258483c5b00"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/micheh-psr7-cache/mikespub-micheh-psr7-cache-dc675fcb65e41ebd6516dd5f024376b533391856-zip-78ed64.zip",
+                    "reference": "dc675fcb65e41ebd6516dd5f024376b533391856",
+                    "shasum": "3c86bedc44ebad1a60b5992a1b9a5c53c3dd117b"
                 },
                 "require": {
                     "php": ">=8.1",
                     "psr/http-message": "^1.1 || ^2.0"
                 },
                 "require-dev": {
-                    "phpstan/phpstan": "^1.12",
-                    "phpunit/phpunit": "^10.5"
+                    "phpstan/phpstan": "^1.12 || ^2.1",
+                    "phpunit/phpunit": "^10.5 || ^11.5 || ^12.1"
                 },
-                "time": "2024-11-16T13:14:25+00:00",
+                "time": "2025-05-10T15:24:58+00:00",
                 "type": "library",
+                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Micheh\\Cache\\": "src/"
@@ -69,7 +70,7 @@
                     "response"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/micheh-psr7-cache/tree/2.0.2",
+                    "source": "https://github.com/mikespub-org/micheh-psr7-cache/tree/2.0.3",
                     "issues": "https://github.com/mikespub-org/micheh-psr7-cache/issues"
                 }
             }

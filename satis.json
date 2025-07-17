@@ -47,16 +47,16 @@
         }
     ],
     "require": {
-        "kiwilan/php-opds": "^2.1.0",
-        "mikespub/epub-loader": "^3.6.1",
-        "mikespub/epubjs-reader": "^2025.04.08",
-        "mikespub/php-epub-meta": "^3.3.5",
-        "mikespub/seblucas-cops": "^3.6.1",
-        "mikespub/micheh-psr7-cache": "^2.0.2",
+        "kiwilan/php-opds": "^2.2.0",
+        "mikespub/epub-loader": "^3.6.4",
+        "mikespub/epubjs-reader": "^2025.07.07",
+        "mikespub/php-epub-meta": "^3.5.1",
+        "mikespub/seblucas-cops": "^3.7.1",
+        "mikespub/micheh-psr7-cache": "^2.0.3",
         "mikespub/middlewares-cache": "^3.1.0",
         "middlewares/utils": "^4.0.2",
-        "mikespub/rvolz-bicbucstriim": "^3.6.3",
-        "mikespub/survos-wikidata": "^5.2.3"
+        "mikespub/rvolz-bicbucstriim": "^3.6.5",
+        "mikespub/survos-wikidata": "^5.2.5"
     },
     "require-dependencies": false,
     "require-dev-dependencies": false,

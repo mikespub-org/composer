@@ -2,12 +2,11 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "db3837d556e253aeca72265e6b8d6cc5722a226a"
+            "sha1": "06bd1c36758661dc7a76f2fdf9b840a3744f24e0"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
-        "kiwilan/php-opds",
         "middlewares/utils",
         "mikespub/epub-loader",
         "mikespub/epubjs-reader",

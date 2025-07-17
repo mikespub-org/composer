@@ -3,30 +3,30 @@
         "mikespub/survos-wikidata": [
             {
                 "name": "mikespub/survos-wikidata",
-                "version": "5.2.3",
-                "version_normalized": "5.2.3.0",
+                "version": "5.2.5",
+                "version_normalized": "5.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/survos-wikidata.git",
-                    "reference": "2a908b182fdaf66100d9fe220621b687d7ab390d"
+                    "reference": "74e5833a17dc61bc2c2eb6cc8de1cc05266deb5e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/survos-wikidata/mikespub-survos-wikidata-2a908b182fdaf66100d9fe220621b687d7ab390d-zip-cdb3c6.zip",
-                    "reference": "2a908b182fdaf66100d9fe220621b687d7ab390d",
-                    "shasum": "582014767b87bd0631cf9222ceff24cace5c0ced"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/survos-wikidata/mikespub-survos-wikidata-74e5833a17dc61bc2c2eb6cc8de1cc05266deb5e-zip-e9ade0.zip",
+                    "reference": "74e5833a17dc61bc2c2eb6cc8de1cc05266deb5e",
+                    "shasum": "915a9ae7e7a18a0572ea7fd8e726e60d0f5ae12c"
                 },
                 "require": {
                     "illuminate/collections": "^10.0||^11.0||^12.0",
                     "php": ">=8.2",
-                    "symfony/http-client": "^6.4||^7.2"
+                    "symfony/http-client": "^6.4||^7.3"
                 },
                 "require-dev": {
-                    "phpstan/phpstan": "^1.12",
+                    "phpstan/phpstan": "^2.0",
                     "phpunit/phpunit": "^10.5||^11.5",
-                    "rector/rector": "^1.2"
+                    "rector/rector": "^2.0"
                 },
-                "time": "2025-03-14T10:11:09+00:00",
+                "time": "2025-07-03T10:54:50+00:00",
                 "type": "library",
                 "installation-source": "dist",
                 "autoload": {
@@ -72,7 +72,7 @@
                     "wikidata"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/survos-wikidata/tree/5.2.3"
+                    "source": "https://github.com/mikespub-org/survos-wikidata/tree/5.2.5"
                 },
                 "funding": [
                     {

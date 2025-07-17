@@ -3,18 +3,18 @@
         "mikespub/php-epub-meta": [
             {
                 "name": "mikespub/php-epub-meta",
-                "version": "3.3.5",
-                "version_normalized": "3.3.5.0",
+                "version": "3.5.1",
+                "version_normalized": "3.5.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub-org/php-epub-meta.git",
-                    "reference": "d522c610373809eb802d186fef0b3a07b7357ded"
+                    "reference": "de2eab8a704fb0041331540df6509de2eef4b128"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/php-epub-meta/mikespub-php-epub-meta-d522c610373809eb802d186fef0b3a07b7357ded-zip-cbdca7.zip",
-                    "reference": "d522c610373809eb802d186fef0b3a07b7357ded",
-                    "shasum": "904d606c37bf9f7b394e945c4e51089a3c6c3f15"
+                    "url": "https://github-org.mikespub.net/composer//dist/mikespub/php-epub-meta/mikespub-php-epub-meta-de2eab8a704fb0041331540df6509de2eef4b128-zip-6b2c2d.zip",
+                    "reference": "de2eab8a704fb0041331540df6509de2eef4b128",
+                    "shasum": "f50657dfb60c6069c43216c93b4d66c326a4af0b"
                 },
                 "require": {
                     "ext-dom": "*",
@@ -32,7 +32,7 @@
                     "mikespub/epub-loader": "epub-loader is a utility resource for ebooks",
                     "mikespub/seblucas-cops": "COPS - Calibre OPDS (and HTML) PHP Server"
                 },
-                "time": "2025-02-20T20:47:56+00:00",
+                "time": "2025-05-16T14:13:29+00:00",
                 "type": "library",
                 "installation-source": "dist",
                 "autoload": {
@@ -70,7 +70,7 @@
                     "metadata"
                 ],
                 "support": {
-                    "source": "https://github.com/mikespub-org/php-epub-meta/tree/3.3.5",
+                    "source": "https://github.com/mikespub-org/php-epub-meta/tree/3.5.1",
                     "issues": "https://github.com/mikespub-org/php-epub-meta/issues"
                 }
             }
